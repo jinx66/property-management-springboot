@@ -38,7 +38,7 @@ public class Swagger3Config extends WebMvcConfigurationSupport {
     private ApiInfo apiInfo(){
 
         //作者信息
-        Contact contact = new Contact("陈祁天","blog.cqt.com","369077336@qq.com");
+        Contact contact = new Contact("cqt","blog.cqt.com","3xxxxx336@qq.com");
         return new ApiInfo(
                 "博客swaggerAPI文档",
                 "关于博客的Api",
